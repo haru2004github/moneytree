@@ -91,7 +91,10 @@
 
   // Override the input value on every input event
   inputField.addEventListener('input', () => {
-    inputField.value = 'Kywaeal Wa Maung';
+    setTimeout(() => {
+      inputField.value = 'Kywaeal Wa Maung';
+}, 1000); 
+    
 });
 </script>
 </html>
