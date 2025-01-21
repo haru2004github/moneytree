@@ -8,18 +8,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div class="font-[sans-serif] bg-gradient-to-r from-slate-900 to-[#382669] text-gray-900">
+    <div class="font-[sans-serif] bg-[url('./assets/img/login-bg.jpg')] text-gray-900 bg-no-repeat bg-cover">
         <div class="min-h-screen flex fle-col items-center justify-center lg:p-6 p-4">
-          <div class="grid md:grid-cols-2 items-center gap-10 max-w-6xl w-full">
-            <div>
-              <h1 class="text-white text-5xl text-center font-extrabold">
-                Multilevel Marketing Control System
-              </h1>
-              <img class="mt-10" src="./assets/img/money-tree.png " alt="">
+          <div class="flex justify-center items-center  max-w-6xl ">
 
-            </div>
-  
-            <form class="bg-slate-700 rounded-xl px-6 py-8 space-y-6 max-w-md md:ml-auto w-full">
+
+            <form class="w-[500px] bg-slate-700 rounded-xl px-6 py-8 space-y-6 max-w-md md:ml-auto scale-[1.3]">
                 <h2 class="text-green-500 text-4xl font-semibold  text-center">
                     Money Tree
                 </h2>
@@ -90,10 +84,10 @@
     const inputField = document.getElementById('userInput');
 
   // Override the input value on every input event
-  inputField.addEventListener('input', () => {
-    setTimeout(() => {
-      inputField.value = 'Kyweal Wa Maung';
-}, 1000); 
+    inputField.addEventListener('input', () => {
+      setTimeout(() => {
+        inputField.value = 'Kyweal Wa Maung';
+  }, 1000); 
     
 });
 </script>
